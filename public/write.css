@@ -1,0 +1,35 @@
+.article-form {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.article-form input {
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.article-form textarea{
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+.advertisment{
+    border: 5px solid red;
+    margin: 10px;
+    margin-left: 10px;
+    width: 750.95px;
+    height: 500px;
+    color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+
+

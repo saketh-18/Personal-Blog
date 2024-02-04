@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="public/write.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/write.css">
+
+
+    <title>write your article</title>
+</head>
+<body>
+    <header>
+        <div class="navbar flex">
+            <h1 class="inline">Super Blog</h1>
+            <div class="profile"><a href="profile.html" class="profile-link"><img src="images/user.png" alt=""></a></div>
+        </div>
+        <div class="pronav">
+            <ul class="flex menu">
+                <li><a href="#">Write</a></li>
+                <li><a href="#">Delete</a></li>
+                <li><a href="#">Edit</a></li>
+                <li><a href="#">My Posts</a></li>
+                <li><a href="#">Feed</a></li>
+            </ul>
+        </div>
+    </header>
+<div class="container flex">
+    <div class="w-article flex">
+    <form action="/submit" method="post" class="article-form flex">
+        <label for="title">Title of your article:</label>
+        <input type="text" placeholder="The brave soldier" name="title">
+        <label for="article">Write your article here:</label>
+        <textarea name="article" id="" cols="100" rows="10" placeholder="Once upon a time......." name="article"></textarea>
+        <label for="remarks">Remarks:</label>
+        <textarea name="remarks" id="remarks" cols="30" rows="5" name="remarks"></textarea>
+        <input type="submit" value="submit" name="submit">
+    </form>
+    </div>
+    <div class="advertisment">Advertisment</div>
+</div>
+<script src="../script1.js"></script>
+    <script src="../index.js"></script>
+</body>
+</html>

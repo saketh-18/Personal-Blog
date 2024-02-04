@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline {
+    display: inline;
+}
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.navbar{ 
+    color: white;
+    margin: 0px;
+    background-color: rgb(255, 93, 93);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 650px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.profile-link {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.profile-link img {
+    width: 40px;
+    max-height: 70%;
+}
+
+
+.pronav {
+    background-color: rgb(237, 21, 21);
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+
+    }
+
+
+.pronav ul {
+    margin: 0px;
+    list-style-type: none;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.menu li{
+    display: flex;
+    align-self: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background-size: cover;
+    align-items: flex-end;
+    color: white;
+    
+
+}
+
+.banneri {
+    flex-direction: column;
+    margin: 0px 0px 20px 20px;
+}
+
+.btn{
+    border-radius: 5px;
+    border: transparent;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(255, 93, 93);
+    color: white;
+    font-size: large;
+
+}
+
+
+.banner h2 {
+    margin: 0px;
+    text-shadow: 2px solid black 0.6;
+}
+
+.write-now {
+    margin-top: 5px;
+}
+
+.banner1 {
+    background-image: url(/images/article1--.jpg);
+}
+
+.banner2 {
+    background-image: url(/images/article-alt.jpg);
+}
+.banner3 {
+    background-image: url(/images/article1.jpg);
+}

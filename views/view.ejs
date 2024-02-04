@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view your documents</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/view.css">
+</head>
+<body>
+    <header>
+        <div class="navbar flex">
+            <h1 class="inline logo"><a href="index.html">Super Blog</a></h1>
+            <div class="profile"><a href="profile.html" class="profile-link"><img src="public/images/user.png" alt=""></a></div>
+        </div>
+        <div class="pronav">
+            <ul class="flex menu">
+                <li><a href="#">Write</a></li>
+                <li><a href="#">Delete</a></li>
+                <li><a href="#">Edit</a></li>
+                <li><a href="#">My Posts</a></li>
+                <li><a href="#">Feed</a></li>
+            </ul>
+        </div>
+    </header>
+    <h1 style="text-align: center; color: rgb(255, 93, 93);">You can find all your articles here</h1>
+    <h1><%= heading %></h1>
+    <p><%= article %></p>
+    <h3><%= remarks %></h3>
+    <label for="edit">Click here to edit this</label>
+    <div class="edit-btn">
+    <a href="/editNow">EditNow</a>
+    </div>
+</body>
+</html>

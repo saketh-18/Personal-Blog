@@ -1,0 +1,15 @@
+.edit-btn {
+    display: flex;
+    width: 110px;
+    height: 26px;
+    background-color: rgb(255, 93, 93);
+    border: 3px solid red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-btn a {
+    text-decoration: none;
+    color: white;
+}
