@@ -31,5 +31,8 @@
     font-size: xx-large;
 }
 
+.w-article{ 
+    flex-direction: column;
+}
 
 

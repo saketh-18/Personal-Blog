@@ -10,6 +10,7 @@ let heading;
 let body;
 let footer;
 
+let storage = [];
 
 app.set('view engine', 'ejs'); 
 
@@ -30,15 +31,14 @@ app.get("/write" , (req , res) => {
 
 // passing data from write page to view page and redirecting to view page
 app.post("/submit" , (req , res) => {
-    console.log(req.body);
-
     heading = req.body["title"];
     body = req.body["article"];
     footer = req.body["remarks"];
     res.render("view.ejs" , {heading : heading , article : body , remarks : footer});
     res.redirect("/view");
     res.render("/edit.ejs" , {heading : heading , article : body , remarks : footer})
-
+    storage.push({heading , article , remarks})
+    console.log(storage);
 })
 
 // manually navigating view page 
@@ -70,7 +70,7 @@ app.get("/delete" , (req ,  res) =>{
     heading ="";
     body = "";
     footer = "";
-    res.render("view.ejs" , {heading : heading , article : body , remarks : footer});
+    res.render("view.ejs" , {heading : "article deleted ! " , article : body , remarks : footer});
     res.redirect("/view");
 })
 

@@ -13,3 +13,23 @@
     text-decoration: none;
     color: white;
 }
+
+.delete-button {
+    padding: 10px;
+    border: 2px solid rgb(152, 152, 152);
+    background-color: rgb(216, 214, 214);
+    margin: 10px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.view-page{ 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-viewer {
+    flex-direction: column;
+}
